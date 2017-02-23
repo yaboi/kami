@@ -1,0 +1,23 @@
+{
+  "name": "kami",
+  "description": "...and even certain shrines carry out forms of ritual dance where a human is said to wrestle with a kami.",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "install": "(cd client && npm install) && (cd server && npm install)",
+    "clean": "(cd client && npm clean) && (cd server && npm clean)",
+    "test": "cd server && npm test",
+    "version": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "homepage": "https://github.com/yaboi/kami",
+  "author": {
+    "name": "Tyler Goelz",
+    "email": "tyler@tylergoelz.com",
+    "url": "www.tylergoelz.com"
+  },
+  "keywords": []
+}
